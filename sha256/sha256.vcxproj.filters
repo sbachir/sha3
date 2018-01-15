@@ -18,18 +18,21 @@
     <ClInclude Include="sha256.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="sha256.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Xsd Include="licence.txt">
+    <None Include="licence.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sha256.rc">
       <Filter>Resource Files</Filter>
-    </Xsd>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
